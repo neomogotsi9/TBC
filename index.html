@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Beauty Collective — Hair &amp; Nails in Florauna</title>
+<meta name="description" content="The Beauty Collective is a shared beauty space in Florauna, home to a hair salon and a nail salon under one roof.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- =========================================================
+     HEADER / NAVIGATION
+     Sticky nav, shared across every page. Update the "active"
+     class on the current page's link only.
+     ========================================================= -->
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav-logo" aria-label="The Beauty Collective — home">
+      <!-- two interlocking leaves = two businesses, one space -->
+      <svg viewBox="0 0 24 24" fill="currentColor" style="color:var(--color-sage)">
+        <path d="M12 2C7 2 3 6 3 11c0 4 2.5 7 6 8-1-3 0-6 3-8-3 1-5-1-5-4 0-3 2.5-5 5-5z"/>
+      </svg>
+      The Beauty Collective
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="hair.html">Hair</a></li>
+      <li><a href="nails.html">Nails</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- =========================================================
+     HERO
+     Introduces the shared space. No single service dominates —
+     copy stays neutral between Hair and Nails.
+     ========================================================= -->
+<section class="hero">
+  <div class="hero-photo" aria-hidden="true">
+    <img src="images/hero.jpg" alt="">
+  </div>
+  <div class="hero-ambient" aria-hidden="true">
+    <svg class="leaf-1" viewBox="0 0 100 100" fill="currentColor"><path d="M10 90C10 50 40 10 90 10c0 40-30 80-80 80z"/></svg>
+    <svg class="leaf-2" viewBox="0 0 100 100" fill="currentColor"><path d="M90 10C90 50 60 90 10 90c0-40 30-80 80-80z"/></svg>
+  </div>
+  <div class="wrap hero-inner">
+    <span class="eyebrow">Florauna</span>
+    <h1>Hair &amp; nails, under one roof.</h1>
+    <p class="lede" style="margin-left:auto;margin-right:auto;text-align:center;">
+      Two independent studios sharing one light-filled space in Florauna.
+      Book with either — or both.
+    </p>
+    <div class="hero-actions">
+      <a href="hair.html" class="btn btn-primary" style="background:var(--color-sage)">Explore Hair</a>
+      <a href="nails.html" class="btn btn-primary" style="background:var(--color-terracotta)">Explore Nails</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SERVICE TILES
+     Short summary of each business + link into its full page.
+     ========================================================= -->
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="tiles">
+
+      <!-- Hair tile -->
+      <article class="tile tile--hair">
+        <svg class="tile-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M6 3c3 0 4 3 4 6s-1 5-3 7c3 0 6-2 7-5 1 3 4 5 7 5-2-2-3-4-3-7s1-6 4-6"/>
+        </svg>
+        <span class="eyebrow" style="color:var(--color-sage-deep)">Hair Studio</span>
+        <h3>Cut, color &amp; care</h3>
+        <p>Precision cuts and considered color, from everyday shape-ups to full transformations.</p>
+        <a href="hair.html" class="btn btn-primary">Learn More</a>
+      </article>
+
+      <!-- Nails tile -->
+      <article class="tile tile--nails">
+        <svg class="tile-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 2c1 3 3 4 3 7a3 3 0 0 1-6 0c0-3 2-4 3-7z"/>
+          <path d="M6 21c0-4 2-6 6-6s6 2 6 6"/>
+        </svg>
+        <span class="eyebrow" style="color:var(--color-terracotta-deep)">Nail Salon</span>
+        <h3>Manicures &amp; pedicures</h3>
+        <p>Clean, considered nail care — from classic finishes to detailed nail art.</p>
+        <a href="nails.html" class="btn btn-primary">Learn More</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- Signature leaf divider — marks the seam between sections -->
+<div class="leaf-divider" aria-hidden="true">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C7 2 3 6 3 11c0 4 2.5 7 6 8-1-3 0-6 3-8-3 1-5-1-5-4 0-3 2.5-5 5-5z"/></svg>
+</div>
+
+<!-- =========================================================
+     ABOUT TEASER
+     Short pull-quote style intro, full story lives on About page.
+     ========================================================= -->
+<section class="section">
+  <div class="wrap about-teaser">
+    <span class="eyebrow">Our Story</span>
+    <h2>One space, two crafts.</h2>
+    <p class="lede" style="margin-left:auto;margin-right:auto;">
+      Florauna's hair studio and nail salon started as two separate rooms —
+      now they share one address, one light, and one collective spirit.
+    </p>
+    <a href="about.html" class="btn btn-outline">Read Our Story</a>
+  </div>
+</section>
+
+<!-- =========================================================
+     FOOTER
+     Location, hours, quick links. Shared across every page.
+     ========================================================= -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>The Beauty Collective</h4>
+        <p>A shared space for hair and nails in Florauna.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="hair.html">Hair Studio</a></li>
+          <li><a href="nails.html">Nail Salon</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>Florauna<br>Hours coming soon</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 The Beauty Collective. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
