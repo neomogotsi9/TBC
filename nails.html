@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nail Salon — The Beauty Collective</title>
+<meta name="description" content="Manicures and pedicures at the Nail Salon, part of The Beauty Collective in Florauna.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="accent-nails">
+
+<!-- =========================================================
+     HEADER / NAVIGATION — shared, "Nails" marked active
+     ========================================================= -->
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav-logo" aria-label="The Beauty Collective — home">
+      <svg viewBox="0 0 24 24" fill="currentColor" style="color:var(--color-sage)">
+        <path d="M12 2C7 2 3 6 3 11c0 4 2.5 7 6 8-1-3 0-6 3-8-3 1-5-1-5-4 0-3 2.5-5 5-5z"/>
+      </svg>
+      The Beauty Collective
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="hair.html">Hair</a></li>
+      <li><a href="nails.html" class="active">Nails</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- =========================================================
+     PAGE HERO
+     Short banner specific to the Nail Salon.
+     ========================================================= -->
+<section class="hero" style="padding-bottom:var(--space-md)">
+  <div class="wrap hero-inner">
+    <span class="eyebrow">Nail Salon</span>
+    <h1>Manicures &amp; pedicures.</h1>
+    <p class="lede" style="margin-left:auto;margin-right:auto;text-align:center;">
+      Clean, considered nail care — from classic finishes to detailed nail art.
+    </p>
+    <div class="hero-actions">
+      <!-- PLACEHOLDER: replace href with the nail tech's real booking link -->
+      <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     PROVIDER INTRO
+     Short note from the nail tech + photo placeholder.
+     ========================================================= -->
+<section class="section section-alt">
+  <div class="wrap" style="display:grid;grid-template-columns:1fr 1.4fr;gap:var(--space-lg);align-items:center;">
+    <div style="border-radius:var(--radius);aspect-ratio:4/5;overflow:hidden;">
+      <img src="images/founder-nails.jpg" alt="Nail Salon technician" style="width:100%;height:100%;object-fit:cover;object-position:top;">
+    </div>
+    <div>
+      <span class="eyebrow" style="color:var(--color-terracotta-deep)">Meet the Nail Tech</span>
+      <h2>A note from the studio</h2>
+      <p>PLACEHOLDER — a short introduction from the nail tech: their background, approach to nail care, and what clients can expect from a visit.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SERVICES + PRICING
+     Update this list with the real menu and prices.
+     ========================================================= -->
+<section class="section">
+  <div class="wrap">
+    <span class="eyebrow" style="color:var(--color-terracotta-deep)">Services</span>
+    <h2>Menu &amp; pricing</h2>
+    <div style="display:grid;gap:0;border-top:1px solid var(--color-taupe);margin-top:var(--space-md);">
+
+      <div style="display:flex;justify-content:space-between;padding:1rem 0;border-bottom:1px solid var(--color-taupe);">
+        <span>Classic Manicure</span><span style="color:var(--color-text-muted);">From $XX</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;padding:1rem 0;border-bottom:1px solid var(--color-taupe);">
+        <span>Gel Manicure</span><span style="color:var(--color-text-muted);">From $XX</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;padding:1rem 0;border-bottom:1px solid var(--color-taupe);">
+        <span>Classic Pedicure</span><span style="color:var(--color-text-muted);">From $XX</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;padding:1rem 0;border-bottom:1px solid var(--color-taupe);">
+        <span>Gel Pedicure</span><span style="color:var(--color-text-muted);">From $XX</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;padding:1rem 0;border-bottom:1px solid var(--color-taupe);">
+        <span>Nail Art (per set)</span><span style="color:var(--color-text-muted);">From $XX</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     GALLERY
+     Grid of work photos — placeholders until real photos exist.
+     ========================================================= -->
+<section class="section section-alt">
+  <div class="wrap">
+    <span class="eyebrow" style="color:var(--color-terracotta-deep)">Gallery</span>
+    <h2>Recent work</h2>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-sm);margin-top:var(--space-md);">
+      <div style="border-radius:var(--radius);aspect-ratio:1;overflow:hidden;">
+        <img src="images/nail-gallery-1.jpg" alt="Nail art by the Nail Salon" style="width:100%;height:100%;object-fit:cover;">
+      </div>
+      <div style="border-radius:var(--radius);aspect-ratio:1;overflow:hidden;">
+        <img src="images/nail-gallery-2.jpg" alt="Nail art by the Nail Salon" style="width:100%;height:100%;object-fit:cover;">
+      </div>
+      <div style="border-radius:var(--radius);aspect-ratio:1;overflow:hidden;">
+        <img src="images/nail-gallery-3.jpg" alt="Nail art by the Nail Salon" style="width:100%;height:100%;object-fit:cover;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     BOTTOM CTA
+     ========================================================= -->
+<section class="section" style="text-align:center;">
+  <div class="wrap">
+    <h2>Ready for your next set?</h2>
+    <a href="#" class="btn btn-primary">Book Now</a>
+  </div>
+</section>
+
+<!-- =========================================================
+     FOOTER — shared
+     ========================================================= -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>The Beauty Collective</h4>
+        <p>A shared space for hair and nails in Florauna.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="hair.html">Hair Studio</a></li>
+          <li><a href="nails.html">Nail Salon</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>Florauna<br>Hours coming soon</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 The Beauty Collective. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
