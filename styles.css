@@ -510,16 +510,114 @@ body.accent-nails {
 .modal-submit { width: 100%; text-align: center; border: none; }
 
 /* -----------------------------------------------------------
-   16. RESPONSIVE
+   16. RESPONSIVE — MOBILE & TABLET
 ----------------------------------------------------------- */
+
+/* Mobile & Tablet Layout Adjustments */
 @media (max-width: 720px) {
-  .nav-links { gap: var(--space-sm); font-size: 0.85rem; }
-  .tiles { grid-template-columns: 1fr; }
-  .footer-grid { grid-template-columns: 1fr; gap: var(--space-lg); text-align: center; }
-  .hero-ambient { display: none; }
+
+  /* Page wrapper */
+  .wrap {
+    padding: 0 1.25rem;
+  }
+
+  /* Header & Navigation */
+  .nav {
+    flex-direction: column;
+    gap: var(--space-sm);
+    padding: var(--space-sm) 1rem;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  /* Hero */
+  .hero {
+    text-align: center;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Decorative background */
+  .hero-ambient {
+    display: none;
+  }
+
+  /* Homepage Service Tiles */
+  .tiles {
+    grid-template-columns: 1fr;
+    gap: var(--space-sm);
+  }
+
+  .tile {
+    padding: var(--space-md);
+  }
+
+  .tile .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Footer */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+    text-align: center;
+  }
+
+  /* Hair & Nail Service Lists */
+  .service-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 0.95rem;
+  }
 }
 
+
+/* -----------------------------------------------------------
+   EXTRA SMALL MOBILE DEVICES
+----------------------------------------------------------- */
+
 @media (max-width: 480px) {
-  .nav-links { gap: 0.6rem; }
-  :root { --space-xl: 4.5rem; --space-lg: 2.5rem; }
+
+  :root {
+    --space-xl: 3.5rem;
+    --space-lg: 2rem;
+  }
+
+  /* Navigation */
+  .nav-links {
+    gap: 0.5rem 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  /* Hero */
+  .hero-actions {
+    max-width: 100%;
+  }
+
+  /* Booking Modal */
+  .modal {
+    width: 95%;
+    max-width: 420px;
+    padding: var(--space-sm);
+  }
 }
