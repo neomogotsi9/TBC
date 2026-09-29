@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <!DOCTYPE html>
-<html lang="en">
-<head>
- 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Crown &amp; Claw — Hair &amp; Nails in Florauna</title>
-<meta name="description" content="Crown &amp; Claw is a shared beauty space in Florauna, home to a hair salon and a nail salon under one roof.">
-<link rel="stylesheet" href="/styles.css">
-</head>
-<body>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact — Crown &amp; Claw</title>
-<meta name="description" content="Find and contact Crown &amp; Claw, a shared hair and nail space in Florauna.">
-<link rel="stylesheet" href="/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact TallLee The Nail Tech | Florauna, Pretoria North</title>
+  <meta name="description" content="Contact TallLee The Nail Tech in Florauna, Pretoria North for nail, hair and lash services. Get in touch via WhatsApp to enquire or book.">
+
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 
@@ -26,17 +17,23 @@
 <header class="site-header">
   <nav class="nav">
     <a href="/" class="nav-logo" aria-label="Crown &amp; Claw — home">
-      <svg viewBox="0 0 24 24" fill="currentColor" style="color:var(--color-sage)">
+      <svg
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        style="color:var(--color-sage)"
+        aria-hidden="true"
+      >
         <path d="M12 2C7 2 3 6 3 11c0 4 2.5 7 6 8-1-3 0-6 3-8-3 1-5-1-5-4 0-3 2.5-5 5-5z"/>
       </svg>
       Crown &amp; Claw
     </a>
+
     <ul class="nav-links">
       <li><a href="/">Home</a></li>
       <li><a href="/rueshair/">Hair</a></li>
       <li><a href="/talllee/">Nails</a></li>
       <li><a href="/about/">About</a></li>
-      <li><a href="/contact/" class="active">Contact</a></li>
+      <li><a href="/contact/" aria-current="page">Contact</a></li>
     </ul>
   </nav>
 </header>
@@ -47,75 +44,87 @@
 <section class="hero" style="padding-bottom:var(--space-md)">
   <div class="wrap hero-inner">
     <span class="eyebrow">Contact</span>
-    <h1>Find us in Florauna.</h1>
+    <h1>Contact TallLee The Nail Tech</h1>
     <p class="lede" style="margin-left:auto;margin-right:auto;text-align:center;">
-      For booking, contact Hair or Nails directly from their pages.
-      Questions about the space itself? Reach out below.
+      Visit us in Florauna, Pretoria North, or get in touch about our nail, hair and lash services.
     </p>
   </div>
 </section>
 
 <!-- =========================================================
-     MAP + DETAILS
+     MAP + CONTACT DETAILS
      ========================================================= -->
 <section class="section section-alt">
-  <div class="wrap" style="display:grid;grid-template-columns:1.2fr 1fr;gap:var(--space-lg);align-items:start;">
+  <div class="wrap contact-grid">
 
-    <!-- Map embed — uses the address as a query, no API key needed -->
-    <div style="border-radius:var(--radius);aspect-ratio:4/3;overflow:hidden;">
+    <!-- Map -->
+    <div class="contact-map" style="border-radius:var(--radius);aspect-ratio:4/3;overflow:hidden;">
       <iframe
         src="https://www.google.com/maps?q=Florauna+Road,+Nina+Park,+Pretoria+North&output=embed"
         style="width:100%;height:100%;border:0;"
         loading="lazy"
-        title="Map to Crown &amp; Claw, Florauna Road, Nina Park, Pretoria North">
+        title="Map to TallLee The Nail Tech, Florauna Road, Nina Park, Pretoria North">
       </iframe>
     </div>
 
+    <!-- Contact details -->
     <div>
-      <h3>Address</h3>
-      <p>Florauna Road, Nina Park<br>Pretoria North</p>
+      <h3>Visit us</h3>
+      <p>
+        Florauna Road, Nina Park<br>
+        Pretoria North
+      </p>
 
       <h3>Hours</h3>
       <p>Tuesday – Sunday, 7:00 – 18:00</p>
 
-      <h3>General Inquiries</h3>
-      <p>Rue's Beauty Studio (Hair): +27 67 865 7543<br>Tall Lee the Nail Tech (Nails): +27 65 967 5880</p>
+      <h3>Hair</h3>
+      <p>
+        Rue's Beauty Studio<br>
+        <a href="tel:+27678657543">+27 67 865 7543</a>
+      </p>
+
+      <h3>TallLee The Nail Tech</h3>
+      <p>
+        TallLee The Nail Tech<br>
+        <a href="https://wa.me/27659675880">WhatsApp: +27 65 967 5880</a>
+      </p>
+
+      <div style="margin-top:var(--space-md);">
+        <a href="https://wa.me/27659675880" class="btn btn-primary">
+          Chat on WhatsApp
+        </a>
+      </div>
     </div>
 
   </div>
 </section>
 
 <!-- =========================================================
-     INQUIRY FORM
-     General questions only — not for booking appointments.
+     GET IN TOUCH
+     Direct contact is used instead of a non-functional form.
      ========================================================= -->
 <section class="section">
-  <div class="wrap" style="max-width:560px;margin:0 auto;">
+  <div class="wrap" style="max-width:720px;margin:0 auto;text-align:center;">
     <span class="eyebrow">Get in Touch</span>
-    <h2>Send a message</h2>
-    <p class="lede">This form is for general questions about the space — not for booking. Please use the Book Now button on the Hair or Nails page instead.</p>
 
-    <form style="display:grid;gap:var(--space-sm);margin-top:var(--space-md);" action="#" method="POST">
-      <div>
-        <label for="name" style="display:block;margin-bottom:0.3rem;font-size:0.9rem;">Name</label>
-        <input id="name" name="name" type="text" required
-          style="width:100%;padding:0.7rem;border:1px solid var(--color-taupe);border-radius:var(--radius);font-family:var(--font-body);background:var(--color-white);">
-      </div>
-      <div>
-        <label for="email" style="display:block;margin-bottom:0.3rem;font-size:0.9rem;">Email</label>
-        <input id="email" name="email" type="email" required
-          style="width:100%;padding:0.7rem;border:1px solid var(--color-taupe);border-radius:var(--radius);font-family:var(--font-body);background:var(--color-white);">
-      </div>
-      <div>
-        <label for="message" style="display:block;margin-bottom:0.3rem;font-size:0.9rem;">Message</label>
-        <textarea id="message" name="message" rows="4" required
-          style="width:100%;padding:0.7rem;border:1px solid var(--color-taupe);border-radius:var(--radius);font-family:var(--font-body);background:var(--color-white);resize:vertical;"></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary" style="justify-self:start;background:var(--color-sage);">Send Message</button>
-    </form>
+    <h2>Ready to book or have a question?</h2>
+
+    <p class="lede" style="margin-left:auto;margin-right:auto;">
+      For appointments and enquiries, contact the relevant beauty professional directly. TallLee The Nail Tech can assist with nail, hair and lash enquiries via WhatsApp.
+    </p>
+
+    <div class="hero-actions" style="margin-top:var(--space-md);">
+      <a href="https://wa.me/27659675880" class="btn btn-primary">
+        WhatsApp TallLee
+      </a>
+
+      <a href="tel:+27678657543" class="btn btn-outline">
+        Call Rue's Beauty Studio
+      </a>
+    </div>
   </div>
 </section>
-
 <!-- =========================================================
      FOOTER — shared
      ========================================================= -->
