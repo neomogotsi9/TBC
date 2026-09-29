@@ -589,9 +589,23 @@ body.accent-nails {
     gap: 0.8rem;
     font-size: 0.95rem;
   }
+     /* Provider Intro / Our Story */
+  .provider-intro {
+    grid-template-columns: 1fr !important;
+    gap: var(--space-md) !important;
+  }
+
+  .provider-intro .photo-frame {
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .provider-intro > div:last-child {
+    text-align: left;
+  }
 }
-
-
+  
 /* -----------------------------------------------------------
    EXTRA SMALL MOBILE DEVICES
 ----------------------------------------------------------- */
