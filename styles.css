@@ -573,7 +573,12 @@ body.accent-nails {
     width: 100%;
     text-align: center;
   }
-
+   
+  /* Gallery */
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+   
   /* Footer */
   .footer-grid {
     grid-template-columns: 1fr;
