@@ -584,6 +584,11 @@ body.accent-nails {
     grid-template-columns: 1fr;
   }
    
+     /* Contact Page */
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+  }
+   
   /* Footer */
   .footer-grid {
     grid-template-columns: 1fr;
