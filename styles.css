@@ -528,18 +528,26 @@ body.accent-nails {
 
   /* Header & Navigation */
   .nav {
-    flex-direction: column;
-    gap: var(--space-sm);
-    padding: var(--space-sm) 1rem;
-    text-align: center;
-  }
-
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+   
+.nav-logo {
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+   
   .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.6rem 1rem;
-    font-size: 0.9rem;
-  }
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
 
   /* Hero */
   .hero {
