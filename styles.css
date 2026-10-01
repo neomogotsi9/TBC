@@ -513,6 +513,59 @@ body.accent-nails {
 }
 
 .modal-submit { width: 100%; text-align: center; border: none; }
+/* -----------------------------------------------------------
+   FAQ
+----------------------------------------------------------- */
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq-item {
+  border: 1px solid var(--color-taupe);
+  border-radius: var(--radius);
+  background: var(--color-white);
+  overflow: hidden;
+}
+
+.faq-item summary {
+  cursor: pointer;
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+  list-style: none;
+  position: relative;
+  padding-right: 3rem;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "+";
+  position: absolute;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--color-accent-deep);
+}
+
+.faq-item[open] summary::after {
+  content: "−";
+}
+
+.faq-item p {
+  margin: 0;
+  padding: 0 1.25rem 1.1rem;
+  line-height: 1.7;
+}
 
 /* -----------------------------------------------------------
    16. RESPONSIVE — MOBILE & TABLET
