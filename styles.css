@@ -588,9 +588,9 @@ body.accent-nails {
   }
    
   /* Gallery */
-  .gallery-grid {
-    grid-template-columns: 1fr;
-  }
+.gallery-grid {
+  grid-template-columns: 1fr !important;
+}
    
      /* Contact Page */
   .contact-grid {
