@@ -407,6 +407,7 @@ p { margin: 0 0 var(--space-sm); color: var(--color-text); }
   margin-bottom: var(--space-md);
 }
 
+.footer-grid h3,
 .footer-grid h4 {
   font-family: var(--font-display);
   font-weight: 500;
