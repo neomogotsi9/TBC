@@ -629,6 +629,13 @@ body.accent-nails {
     text-align: center;
   }
 
+     /* About Page Buttons */
+  .provider-intro .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
   /* Decorative background */
   .hero-ambient {
     display: none;
