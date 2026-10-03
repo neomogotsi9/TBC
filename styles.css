@@ -739,3 +739,19 @@ body.accent-nails {
     padding: var(--space-sm);
   }
 }
+
+/* TEMPORARY CONTACT PAGE DEBUG */
+.contact-grid,
+.contact-details,
+.contact-page-section {
+  position: relative;
+  z-index: 10;
+}
+
+.contact-details,
+.contact-grid + section,
+.site-footer {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
