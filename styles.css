@@ -572,6 +572,18 @@ body.accent-nails {
    CONTACT PAGE
 ----------------------------------------------------------- */
 
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  align-items: start;
+}
+
+.contact-map {
+  width: 100%;
+  min-width: 0;
+}
+
 .contact-details {
   text-align: center;
 }
