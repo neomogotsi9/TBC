@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://crownandclaw.co.za/sitemap.xml
